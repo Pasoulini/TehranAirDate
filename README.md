@@ -5,14 +5,17 @@ A beautiful Rainmeter widget showing real-time **Air Quality Index (AQI)** for T
 ![Rainmeter](https://img.shields.io/badge/Rainmeter-Skin-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
+![Author](https://img.shields.io/badge/Author-Parsa%20Rasouli-orange)
 
 ## Features
 
 - Real-time Tehran AQI with color-coded status
 - Jalali (Persian) date display
 - Click-to-refresh functionality
-- Clean, modern dark UI with Segoe UI font
+- Hover effects with smooth transitions
 - Auto-refresh every hour
+- Clean, modern dark UI with blur effect
+- Tooltips with health recommendations
 
 ## AQI Status Colors
 
@@ -20,15 +23,17 @@ A beautiful Rainmeter widget showing real-time **Air Quality Index (AQI)** for T
 |-----------|--------|-------|
 | 0 - 50 | Good | Green |
 | 51 - 100 | Moderate | Yellow |
-| 101 - 150 | Unhealthy | Orange |
-| 151+ | Very Unhealthy | Red |
+| 101 - 150 | Unhealthy (Sensitive) | Orange |
+| 151 - 200 | Unhealthy | Red |
+| 201+ | Very Unhealthy | Purple |
 
 ## Screenshot
 
 ```
 ┌─────────────────────────────┐
-│  Air Quality     Moderate  │
-│  83 AQI                    │
+│  AIR QUALITY    Moderate    │
+│  83              ●          │
+│  AQI (US EPA Standard)      │
 │─────────────────────────────│
 │  1405/04/18                 │
 └─────────────────────────────┘
@@ -42,7 +47,7 @@ A beautiful Rainmeter widget showing real-time **Air Quality Index (AQI)** for T
    %USERPROFILE%\Documents\Rainmeter\Skins\
    ```
 3. Right-click the Rainmeter tray icon → **Refresh all**
-4. Right-click Rainmeter tray → **Skins** → **TehranAirDate** → **TehranAirDate.ini**
+4. Right-click Rainmeter tray → **Skins** → **TehranAirDate** → **TehranAirDate.ini`
 
 ## Data Source
 
@@ -71,4 +76,4 @@ MIT License - feel free to use and modify.
 
 ## Author
 
-Made with [Rainmeter](https://www.rainmeter.net/) and caffeine.
+Made by **Parsa Rasouli** with [Rainmeter](https://www.rainmeter.net/) and caffeine.
