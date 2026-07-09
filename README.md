@@ -51,7 +51,7 @@ A beautiful Rainmeter widget showing real-time **Air Quality Index (AQI)** for T
 
 ## Data Source
 
-- **Air Quality**: [time.now](https://time.now/tehran/aqi/)
+- **Air Quality**: [Open-Meteo Air Quality API](https://open-meteo.com/) (Free, no API key)
 - **Date Conversion**: Built-in Lua script (Gregorian → Jalali)
 
 ## Requirements
